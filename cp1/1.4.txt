@@ -1,0 +1,2 @@
+If b>0 the if-clause returns + and - otherwise. So, the result is a +
+|b| stored in a-plus-abs-b.

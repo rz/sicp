@@ -1,0 +1,15 @@
+Normal order for test:
+
+(test 0 (p))
+(if (= 0 0) 0 (p))
+0
+
+
+Applicative order:
+
+(test 0 (p))
+(if (= x 0) 0 y)
+(if (= 0 0) 0 (p))
+(if (= 0 0) 0 ((p)))
+(if (= 0 0) 0 (((p))))
+...

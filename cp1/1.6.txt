@@ -1,0 +1,8 @@
+Since the interpreter uses applicative order, it tries to evaluate the
+inner-most sqrt-iter in the process of evaluating the outermost, which
+in turn results in the interpreter trying to evaluate another
+"sqrt-iter", and this results in infinite recursion. 
+
+Note that in clisp the error seems to be different: as if the
+sqrt-iter in the new-if were "undefined" ie there is no sqrt-iter in
+that scope.
