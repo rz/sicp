@@ -1,0 +1,2 @@
+The number of steps is n^5. The amount of space linear. The
+tree is a bit of a pain to draw.

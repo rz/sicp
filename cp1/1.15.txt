@@ -1,0 +1,6 @@
+sin 12.15 -> p(sin 4.15) -> p(p(sin 1.35)) -> p(p(p(sin 0.45)))
+ -> p(p(p(p(sin 0.15)))) -> p(p(p(p(p(sin(0.05))))))
+
+So, p is applied 5 times.
+
+The procedure is of logarithmic order since it is divide and conquer.
