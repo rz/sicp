@@ -19,10 +19,27 @@
 (A 0 512)
 1024 
 
-Not man enough for the other ones...
-65536 and 65536 computed by coding-up the function.
+Obviously (A 1 n) = 2^n
 
+
+(A 2 4)
+(A 1 (A 2 3))
+(A 1 (A 1 (A 2 2)))
+(A 1 (A 1 (A 1 (A 2 1))))
+(A 1 (A 1 (A 1 2)))
+(A 1 (A 1 4))
+(A 1 16)
+2^16 = 65536
+
+(A 3 3)
+(A 2 (A 3 2))
+(A 2 (A 2 (A 3 1)))
+(A 2 (A 2 2))
+(A 2 (A 1 (A 2 1)))
+(A 2 (A 1 2))
+(A 2 4)
+65536
 
 (f n) is 2n
 (g n) is 2^n
-(h n) is 2^(2^n)
+(h n) is 2^2...2^2 with n ^s
