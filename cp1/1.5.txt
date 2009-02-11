@@ -8,8 +8,8 @@ Normal order for test:
 Applicative order:
 
 (test 0 (p))
-(if (= x 0) 0 y)
-(if (= 0 0) 0 (p))
-(if (= 0 0) 0 ((p)))
-(if (= 0 0) 0 (((p))))
+(test 0 (p))
+(test 0 (p))
+(test 0 (p))
 ...
+
