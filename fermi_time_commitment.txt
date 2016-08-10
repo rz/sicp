@@ -1,0 +1,49 @@
+611 pages in 5 parts, 356 exercises
+text at 0.3hr/page: ~185hrs, exercises at 1.5hrs/exercise: 534hrs, exercises at 0.5hr/exercise:356
+total project time 719hrs
+
+
+        pages   read time   probs    prob time(1.5h)  prob time(0.5h)
+Part 1:    79          24      46           70               23
+Part 2:   138          42      97          145               49
+Part 3:   142          43      82          123               62
+Part 4:   132          40      79          119               60
+Part 5:   120          36      52           78               39
+-----------------------------------------------------------------------
+total:    611         185     356          534              233
+
+
+10hrs/wk ~71weeks ~1.3 years
+15hrs/wk ~48weeks ~1 year <-- this is probably the most reasonable
+20hrs/wk ~35weeks ~9 months
+30hrs/wk ~24weeks ~5.5 months <-- speedy gonzales
+
+Another potential way to divvy up the project is into subparts.
+
+3 in Part 1
+5 in Part 2
+5 in Part 3
+4 in Part 4
+5 in Part 5
+-----------
+22 total
+
+Moving at 1 subpart/week the project takes ~5 months. That seems pretty reasonable. However, this doesn't take into account that the subparts are of different length/difficulty, so the time-commitment varies week by week. This may be doable, though. Furthermore, I think Part 1 should take only 1 week.
+
+
+---
+Community wiki of solutions: http://community.schemewiki.org/?SICP-Solutions, i also have solutions manual
+---
+Lectures:
+
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+there are 19 lectures, about 1:30 each. this probably fits in the reading time as estimated above. keeping up with lectures finishes the book in 10 weeks.
+---
+Assuming a 11 week pace:
+
+Week 1: Part 1, lectures 1A-2B:6hrs, reading time:18hrs, problem time: ~10hrs. total time:34hrs
+Week 2: Part 2, lectures:3A,3B:3hrs, reading time:18hrs, problem time: 25-72hrs. total time:43-90hrs
+Week 3: Part 2, lectures:4A,4B:3hrs, reading time:18hrs, problem time: 25-72hrs. total time:43-90hrs
+...
+need to actually try stuff to see how long it takes
+
