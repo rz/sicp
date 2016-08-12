@@ -1,0 +1,28 @@
+What will be the behavior of the following procedure on an interpreter that uses normal-order evaluation? Applicative-order evaluation? Assume `if` evaluates the predicate first and the result determines whether to evaluate the consequent or alternative.
+
+(define (p) (p))
+
+(define (test x y)
+  (if (= x 0) 0 y))
+
+(test 0 (p))
+
+
+In applicative-order evaluation the interpreter evaluates operator and arguments, and then applie. So, after the procedures are defined the interpreter evaluates the expression (test 0 (p)). In order to do so, it retrieves the body of test:
+
+(if (= x 0) 0 y)
+
+Then the interpreter evaluates the arguments to replace in the body 0 for x and evaluates (p) for y. Since the definition of p is a recursive call that never returns, the intepreter goes on an infinite loop here.
+
+In normal-order evaluation when the interpreter will fully expand and then reduce, so after the procedures are defined, the interpreter evaluates the expression (test 0 (p)). First, it retrieves the body of test:
+
+(if (= x 0) 0 y)
+
+The interpreted will then expand the if, with 0 for x before deciding whether to evaluate the consequent or alternative:
+
+(if (= 0 0) x (p))
+
+Which evaluates to x and x, in turn evaluates to 0.
+
+So, if the interpreter uses applicative order, the expressions above will recurse infinitely, while if it uses normal order it will return 0.
+

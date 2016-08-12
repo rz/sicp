@@ -1,0 +1,8 @@
+Explain behavior of:
+
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b))
+
+This is definiing a procedure. The procedure will apply an operator to a and b, the operator is decided during evaluation. When b > 0 the if will return + for the operator and - otherwise. So, when b > 0 the body of the procedure becomes (+ a b) and when b <= 0 (- a b) ie the procedure returns a + |b|.
+
+
