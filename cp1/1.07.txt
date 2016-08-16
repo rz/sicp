@@ -1,0 +1,8 @@
+The good-enough? procedure does not work well for small numbers because it uses a fixed tolerance for deciding if a guess is good enough. When trying to compute the square root of numbers that are about the square of that tolerance the good-enough? procedure is inadequate because it causes the sqrt-iter procedure to stop refining a guess prematurely. For example, with the tolerance set to 0.0001, computing the square root of 0.001 yields .03274526934448864 instead of the more accurate .03162277660168379 because the first number squared is within 0.0001 of the correct value. More dramatically, when computing the square root of 0.000001 the guess 7.85e-3 squared is within 0.0001 of 0.000001, but the value is obviously incorrect.
+
+A better approach would be to have the tolerance be dependent on x eg x / 10000.
+
+For very large numbers the good-enough procedure runs into a similar problem: since we have limited precision differences smaller than that precision are not detectable. For example, suppose we have 3 digits of precsion. In that case, the difference betweeen 1.021e10 and 1.010e10 is 1.00e8, which is much larger than our tolerance of 0.0001, so this causes the sqrt-iter procedure to never terminate. Again, having the tolerance depend on x would be a better approach.
+
+See sqrt.scm for implementation of these ideas and the version in which good-enough is based on how much the guesses change by.
+

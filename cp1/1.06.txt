@@ -1,0 +1,3 @@
+The `if` special form only evaluates one of the clauses, it "short-circuits". This behavior is important to the square root procedure because the interpreter uses applicative-order. The new-if function is evaluated using applicative order and thus the inner sqrt-iter is evaluated which causes another evaluation of itself, and so on indefinitely. When we use the `if` special form the evaluation stops the first time (good-enough? guess x) is #t because in that case only the consequent expression is evaluated, which isn't a recursive call.
+
+
