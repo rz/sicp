@@ -8,3 +8,5 @@
 2016-08-16 0.2 read section 1.1.8 on abstraction and scopes
 2016-08-17 0.3 read section up to section 1.2.1
 2016-08-17 0.5 problems 1.9 and 1.10
+2016-08-18 0.3 read section 1.2.2
+2016-08-18 0.8 problem 1.11 GAH this took way longer than it should've
