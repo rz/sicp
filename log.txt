@@ -10,3 +10,5 @@
 2016-08-17 0.5 problems 1.9 and 1.10
 2016-08-18 0.3 read section 1.2.2
 2016-08-18 0.8 problem 1.11 GAH this took way longer than it should've
+2016-08-18 0.7 watched lecture 1A at 2x
+2016-08-19 1.1 problems 1.12 and 1.13

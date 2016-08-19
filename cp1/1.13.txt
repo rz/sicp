@@ -1,0 +1,26 @@
+Taking the hint, first we show by induction that Fib(n) = (phi^n - psi^n) / sqrt(5).
+
+Let f = sqrt(5).
+
+Base cases:
+
+n=1: (phi^1 - psi^1)/f = (1 + f - 1 + f)/2 = 2f/2f = 1 = Fib(1)
+n=2: (phi^2 - psi^2)/f = (1 + 2f + 5 - 1 + 2f - 5)/4f = 4f/4f = 1 = Fib(2)
+
+Since, by definition, both phi and psi satisfy x^2 = x + 1, they also satisfy x^(n+1) = x^n + x^(n-1), which can be seen by multiplying both sides by x^(n-1). [1]
+
+By definition of Fib we have:
+
+Fib(n+1) = Fib(n) + Fib(n-1)                                  by the inductive hypothesis:
+Fib(n+1) = (phi^n - psi^n)/f + (phi^(n-1) - psi^(n-1))/f      grouping terms with phi's and psi's together:
+         = 1/f [((phi^n) + phi^(n-1)) - (psi^n + psi^(n-1))]  using [1] above:
+         = [phi^(n+1) - psi^(n+1)] / f
+
+So, we proved that Fib(n) = (phi^n - psi^n) / f by induction.
+
+Now, notice that psi^n/f = (1 - f)^n / (2^n * f) so 0 < psi^n/f < 1/2, which can be seen by noticing that 1/f < 1/2 and that psi < 1, so psi^n decreases as n increases, with its biggest value being 1 when n=1 since 1/f < 1/2.
+
+This means that in the above formula the psi term cannot change the number by a whole integer since it always subtracts something smaller than 1/2. e.g 5.3 - 1.5 = 4.8, the integer nearest to 5.3 is 5 and so is the integer nearest to 4.8. So, we have that:
+
+Fib(n) is the closest integer to phi^n/f as desired.
+
