@@ -12,3 +12,9 @@
 2016-08-18 0.8 problem 1.11 GAH this took way longer than it should've
 2016-08-18 0.7 watched lecture 1A at 2x
 2016-08-19 1.1 problems 1.12 and 1.13
+2016-08-22 0.8 problem 1.14, but i'm not too happy with my solution, may work on it again.
+2016-08-22 0.5 watched lecture 1B at 2x
+2016-08-23 0.4 problem 1.15
+2016-08-23 0.3 read section 1.2.4 and the instructor's manual quickly up to where i am
+2016-09-26 0.5 re-read section 1.2.4 to pick back up and started on problem 1.16, had an off by 1 error when i had to go.
+2016-09-27 0.5 finished problem 1.16

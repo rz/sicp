@@ -1,0 +1,28 @@
+(define (cube x) (* x x x)
+
+(define (p x) (- (* 3 x) (* 4 (cube x))))
+
+(define (sine angle)
+  (if (not (> (abs angle) 0.1))
+    angle
+    (p (sine (/ angle 3.0)))))
+
+
+a. evaluation proceeds as follows:
+
+(sine 12.15)
+(p (sine 4.05))
+(p (p (sine 1.35)))
+(p (p (p (sine 0.45))))
+(p (p (p (p (sine 0.15)))))
+(p (p (p (p (p (sine 0.05))))))
+(p (p (p (p (p 0.05)))))  ;;; p will be applied 5 times
+
+
+b.
+
+p is comprised of elementary operations, which we assume to take constant time. at each step we
+divide the argument by 3, so the procedure is O(log a) in time. since the applications of p are
+deferred, the amount of space necessary will be proportional to the number of times p is applied.
+this is also O(log a) for the same reason: each time we divide the argument by 3.
+
