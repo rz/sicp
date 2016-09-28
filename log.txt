@@ -18,3 +18,4 @@
 2016-08-23 0.3 read section 1.2.4 and the instructor's manual quickly up to where i am
 2016-09-26 0.5 re-read section 1.2.4 to pick back up and started on problem 1.16, had an off by 1 error when i had to go.
 2016-09-27 0.5 finished problem 1.16
+2016-09-28 0.6 problems 1.17 and 1.18

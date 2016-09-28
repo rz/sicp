@@ -15,7 +15,7 @@
 (define (fast-expt-iter b n aux)
   (cond ((= n 0) 1)
         ((= n 1) (* b aux))
-        ((even? n) (fast-expt-iter (square b) (/ n 2) aux))
+        ((even? n) (fast-expt-iter (square b) (halve 2) aux))
         (else (fast-expt-iter b (- n 1) (* b aux)))))
 
 (define (fast-expt b n)
