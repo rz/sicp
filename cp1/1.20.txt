@@ -1,0 +1,56 @@
+the procedure:
+
+(define (gcd a b)
+  (if (= b 0) a (gcd b (remainder a b))))
+
+In normal order we don't evaluate operands until their values are needed. and the if rule is the same as in applicative order: evaluate the predicate expression first and only evaluate the necessary consequent expression. For convenience/clarity rename remainder to R. So, when we evaluate (gcd 206 40) we get:
+
+(gcd 206 40)
+(if (= 40 0) 206 (gcd 40 (R 206 40)))
+(gcd 40 (R 206 40))
+(if (= (R 206 40) 0) 40 (gcd (R 206 40) (R 40 (R 206 40))))
+(if (= 6 0) 40 (... same as in previous line))  <-- +1 remainder op
+(gcd (R 206 40) (R 40 (R 206 40)))
+(if (= (R 40 (R 206 40)) 0) (R 206 40) (gcd (R 40 (R 206 40)) (R (R 206 40) (R 40 (R 206 40)))))
+(if (= 4 0) (R 206 40) ( ... same as in previous line ...)) <-- +2 remainder ops, 3 total
+
+(gcd (R 40 (R 206 40)) (R (R 206 40) (R 40 (R 206 40))))
+
+       |------------- b --------------|    |------ a ------|      |------------- b --------------|    |------ a ------| |------------- b --------------|
+(if (= (R (R 206 40) (R 40 (R 206 40))) 0) (R 40 (R 206 40)) (gcd (R (R 206 40) (R 40 (R 206 40))) (R (R 40 (R 206 40)) (R (R 206 40) (R 40 (R 206 40))))))
+
+
+(if (= 2 0) ... same as in previous line ...) <-- +4 remainder ops, 7 total
+
+
+     |------------- a --------------| |-------------------------- b -----------------------|
+(gcd (R (R 206 40) (R 40 (R 206 40))) (R (R 40 (R 206 40)) (R (R 206 40) (R 40 (R 206 40)))))
+
+(if (= (R (R 40 (R 206 40)) (R (R 206 40) (R 40 (R 206 40)))) 0) ... same as prev ... )
+(if (= 0 0) ...same as prev... ) <-- +7 remainder ops, 14 total
+
+
+|------------- a --------------|
+(R (R 206 40) (R 40 (R 206 40)))
+2  <--- +4 remainder ops, 18 total
+
+
+In applicative order we evaluate the operators, evaluate the arguments and then apply the operators. The if rule is the same as above. So, we get:
+
+(gcd 206 40)
+(if (= 40 0) 206 (gcd 40 (R 206 40)))
+(gcd 40 (R 206 40))
+(gcd 40 6)  <-- +1 remainder op
+(if (= 6 0) 40 (gcd 6 (R 40 6)))
+(gcd 6 (R 40 6))
+(gcd 6 4) <-- +1 remainder op, 2 total
+(if (= 4 0) 6 (gcd 4 (R 6 4)))
+(gcd 4 (R 6 4))
+(gcd 4 2) <-- +1 remainder op, 3 total
+(if (= 2 0) 4 (gcd 2 (R 4 2)))
+(gcd 2 (R 4 2))
+(gcd 2 0) <-- +1 remainder op, 4 total
+(if (= 0 0) 2 (gcd 0 (R 2 0)))
+2
+
+
