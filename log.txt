@@ -23,4 +23,4 @@
 2016-10-03 0.5 read sections 1.2.5 and 1.2.6. should probably watch a lecture soon, and have problems 1.20 - 1.28 to do to finish 1.2
 2016-10-04 0.8 problem 1.20. it was very tedious!
 2016-10-06 1.1 problems 1.21 and 1.22, probably spent too long on this. the time went to making output readable and figuring out how to return None.
-
+2016-10-07 0.5 problem 1.23
