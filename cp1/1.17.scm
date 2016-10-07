@@ -1,5 +1,5 @@
 (define (double n) (+ n n))
-(define (halve n) (/ n 2)) ; it'd be cool to do this without division, to stay in the spirit of the problem, but it doesn't seem too worthwhile to figure out how.
+(define (halve n) (/ n 2)) ; it'd be cool to do this without division, to stay in the spirit of the exercise but it doesn't seem too worthwhile to figure out how.
 (define (even? n) (= (remainder n 2) 0))
 
 (define (mult a b)

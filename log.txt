@@ -7,20 +7,20 @@
 2016-08-16 0.8 exercises 1.7 and 1.8
 2016-08-16 0.2 read section 1.1.8 on abstraction and scopes
 2016-08-17 0.3 read section up to section 1.2.1
-2016-08-17 0.5 problems 1.9 and 1.10
+2016-08-17 0.5 exercises 1.9 and 1.10
 2016-08-18 0.3 read section 1.2.2
-2016-08-18 0.8 problem 1.11 GAH this took way longer than it should've
+2016-08-18 0.8 exercise 1.11 GAH this took way longer than it should've
 2016-08-18 0.7 watched lecture 1A at 2x
-2016-08-19 1.1 problems 1.12 and 1.13
-2016-08-22 0.8 problem 1.14, but i'm not too happy with my solution, may work on it again.
+2016-08-19 1.1 exercises 1.12 and 1.13
+2016-08-22 0.8 exercise 1.14, but i'm not too happy with my solution, may work on it again.
 2016-08-22 0.5 watched lecture 1B at 2x
-2016-08-23 0.4 problem 1.15
+2016-08-23 0.4 exercise 1.15
 2016-08-23 0.3 read section 1.2.4 and the instructor's manual quickly up to where i am
-2016-09-26 0.5 re-read section 1.2.4 to pick back up and started on problem 1.16, had an off by 1 error when i had to go.
-2016-09-27 0.5 finished problem 1.16
-2016-09-28 0.6 problems 1.17 and 1.18
-2016-09-29 0.8 problem 1.19. took way longer than expected, i foolishly tried to do the algebra in the source code file instead of switching to pen and paper and then writing out the solution
-2016-10-03 0.5 read sections 1.2.5 and 1.2.6. should probably watch a lecture soon, and have problems 1.20 - 1.28 to do to finish 1.2
-2016-10-04 0.8 problem 1.20. it was very tedious!
-2016-10-06 1.1 problems 1.21 and 1.22, probably spent too long on this. the time went to making output readable and figuring out how to return None.
-2016-10-07 0.5 problem 1.23
+2016-09-26 0.5 re-read section 1.2.4 to pick back up and started on exercise 1.16, had an off by 1 error when i had to go.
+2016-09-27 0.5 finished exercise 1.16
+2016-09-28 0.6 exercises 1.17 and 1.18
+2016-09-29 0.8 exercise 1.19. took way longer than expected, i foolishly tried to do the algebra in the source code file instead of switching to pen and paper and then writing out the solution
+2016-10-03 0.5 read sections 1.2.5 and 1.2.6. should probably watch a lecture soon, and have exercises 1.20 - 1.28 to do to finish 1.2
+2016-10-04 0.8 exercise 1.20. it was very tedious!
+2016-10-06 1.1 exercises 1.21 and 1.22, probably spent too long on this. the time went to making output readable and figuring out how to return None.
+2016-10-07 0.5 exercise 1.23

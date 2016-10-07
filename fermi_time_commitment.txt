@@ -41,9 +41,9 @@ there are 19 lectures, about 1:30 each. this probably fits in the reading time a
 ---
 Assuming a 11 week pace:
 
-Week 1: Part 1, lectures 1A-2B:6hrs, reading time:18hrs, problem time: ~10hrs. total time:34hrs
-Week 2: Part 2, lectures:3A,3B:3hrs, reading time:18hrs, problem time: 25-72hrs. total time:43-90hrs
-Week 3: Part 2, lectures:4A,4B:3hrs, reading time:18hrs, problem time: 25-72hrs. total time:43-90hrs
+Week 1: Part 1, lectures 1A-2B:6hrs, reading time:18hrs, exercise time: ~10hrs. total time:34hrs
+Week 2: Part 2, lectures:3A,3B:3hrs, reading time:18hrs, exercise time: 25-72hrs. total time:43-90hrs
+Week 3: Part 2, lectures:4A,4B:3hrs, reading time:18hrs, exercise time: 25-72hrs. total time:43-90hrs
 ...
 need to actually try stuff to see how long it takes
 
