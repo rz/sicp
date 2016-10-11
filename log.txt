@@ -24,3 +24,4 @@
 2016-10-04 0.8 exercise 1.20. it was very tedious!
 2016-10-06 1.1 exercises 1.21 and 1.22, probably spent too long on this. the time went to making output readable and figuring out how to return None.
 2016-10-07 0.5 exercise 1.23
+2016-10-11 0.7 exercises 1.24 and 1.25
