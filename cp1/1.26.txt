@@ -1,0 +1,3 @@
+Louis' procedure makes two recursive calls to expmode instead of one and this turns the procedure into a linear one.
+
+Since the interpreter uses applicative order, the original implementation first evaluates the recursive call to expmode and then squares the result. In Louis' implementation the interpreter makes two recursive calls to expmod before being able to evaluate the multiplication. So, each step of the computation doubles the work, so the total complexity becomes O(log(2^n)) = O(n).
