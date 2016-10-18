@@ -26,3 +26,5 @@
 2016-10-07 0.5 exercise 1.23
 2016-10-11 0.7 exercises 1.24 and 1.25
 2016-10-13 0.5 exercises 1.26 and 1.27
+2016-10-18 0.6 exercise 1.28
+
