@@ -1,0 +1,18 @@
+Trying it out in the interpreter yields the following:
+
+1 ]=> (define (f g) (g 2))
+
+;Value: f
+
+1 ]=> (f square)
+
+;Value: 4
+
+1 ]=> (f f)
+
+;The object 2 is not applicable.
+
+In order to evaluate (f f) the interpreter first looks for the definition of f:
+(define (f g) (g 2)), so we have (f 2). In order to evaluate that, from the definition of f, we have:
+(2 2). The error is reported because 2 (the first one) is not a procedure.
+
