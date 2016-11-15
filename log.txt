@@ -37,4 +37,8 @@
 2016-11-01 0.6 read section 1.3.4
 2016-11-02 0.8 exercises 1.40 - 1.43
 2016-11-07 1.3 exercises 1.44 - 1.46. done with chapter 1, woohoo!
+2016-11-08 0.5 watched lecture 2A at 2x speed
+2016-11-14 1.1 read cp 2 intro + 2.1
+2016-11-14 0.6 watched lecture 2B at 2x speed
+2016-11-14 1.5 exercises 2.1 - 2.3
 
