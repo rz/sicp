@@ -40,5 +40,7 @@
 2016-11-08 0.5 watched lecture 2A at 2x speed
 2016-11-14 1.1 read cp 2 intro + 2.1
 2016-11-14 0.6 watched lecture 2B at 2x speed
-2016-11-14 1.5 exercises 2.1 - 2.3
+2016-11-15 1.5 exercises 2.1 - 2.3
+2016-11-17 1.0 exercises 2.4 and 2.5
+
 
