@@ -43,5 +43,6 @@
 2016-11-15 1.5 exercises 2.1 - 2.3
 2016-11-17 1.0 exercises 2.4 and 2.5
 2016-11-21 1.2 exercise 2.6
+2016-11-22 0.4 exercises 2.7 and 2.8
 
 
