@@ -45,4 +45,5 @@
 2016-11-21 1.2 exercise 2.6
 2016-11-22 0.4 exercises 2.7 and 2.8
 
+2017-01-24 0.8 exercises 2.9 and 2.10. took a while to get started -- context!
 
