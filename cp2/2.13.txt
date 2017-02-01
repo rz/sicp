@@ -1,0 +1,14 @@
+assuming all numbers are positive and letting i1 = c1 +/- t1 and i2 = c2 +/- t2, we have
+that i1 x i2 = [c1c2 - c1t2 - c2t1 - t1t2, c1c2 + c1t2 + c2t1 + t1t2].
+
+under the assumption that t1 and t2 are small, we can drop the quadratic term t1t2 and we
+have:
+
+i2 x i2 ~= [c1c2 - c1t2 - c2t1, c1c2 + c1t2 + c2t1]
+
+the center of that interval is c = (c1c2 - c1t2 - c2t1 + c1c2 + c1t2 + c2t1)/2 = c1c2
+
+the width of the interval is w = (c1c2 + c1t2 + c2t1 - c1c2 + c1t2 +c2t1)/2 = c1t2 + c2t1
+
+so, the simple formula is  i1 x i2 = c1c2 +/- (c1t2 + c2t1)
+
