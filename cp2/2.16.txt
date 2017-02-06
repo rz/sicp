@@ -1,0 +1,8 @@
+Since intervals don't have well-behaved additive and multiplicative inverses, as we showed
+in the previous 3 problems and not every formula can be reduced so that each symbol
+appears only once, it is impossible to design a system without this flaw.
+
+However, making some assumptions about how errors are distributed e.g. if we think of an interval
+A = a +/ e as a probability distribution with values normally distributed, centered at a
+and with standard deviation e, we can produce a system with better properties.
+

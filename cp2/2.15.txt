@@ -1,0 +1,26 @@
+Eva is right.
+
+S'pose we have A = a +/- e. For each arithmetic operation, whenever we repeat A, we
+increase the error bounds:
+
++: A + A = 2a +/- 2e
+-: A - A = 0 +/- 2e
+*: A * A = a^2 +/- 2ea
+/: A / A = 1 +/- 2ea
+
+In particular, we we write an expression as B = B + 0 = B + A - A and the error in A is
+greater than the error in B, the error in the expression is larger than the error in B.
+
+Similarly, with division (as we've seen in the previous problems) if we write B as
+B = B * 1 = B * A / A we increase the error by 2eA.
+
+This means that intervals have different algebraic properties than numbers -- in
+particular when A is an interval we don't have additive or multiplicative inverses
+(i.e. A - A != 0 and A / A != 1). This is what happens with the equivalence resistor
+formula -- it assumes that we have well-behaved inverses when we don't and that's why the
+two formulas produce different intervals.
+
+Furthermore, this means that if we reduce expressions to use fewer instances of intervals,
+the error bounds will be tighter (since they increase each time we repeat a quantity in
+the formula, as we saw above).
+

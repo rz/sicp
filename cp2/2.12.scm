@@ -10,7 +10,7 @@
 
 (define (make-center-percent c p)
   ;; p should be between 0.0 and 1.0, if this were real i'd enforce/warn here
-  (make-interval-center-width c (* c p)))
+  (make-center-width c (* c p)))
 
 (define (percent i)
   (/ (width i) (center i)))

@@ -50,4 +50,6 @@
 2017-01-30 1.0 exercise 2.11, partial. this exercise is very time consuming!
 2017-01-31 1.0 exercise 2.11. sheesh!
 2017-02-01 0.4 exerciss 2.12 and 2.13
+2017-02-05 0.3 exercise 2.14
+2017-02-06 0.4 exercises 2.15 and 2.16. wooo, feels good to be done with the extended exercise!
 
