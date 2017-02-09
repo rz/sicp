@@ -52,4 +52,6 @@
 2017-02-01 0.4 exerciss 2.12 and 2.13
 2017-02-05 0.3 exercise 2.14
 2017-02-06 0.4 exercises 2.15 and 2.16. wooo, feels good to be done with the extended exercise!
+2017-02-08 0.5 read 2.2 intro and 2.2.1
+2017-02-09 0.6 exercises 2.17 and 2.18
 
