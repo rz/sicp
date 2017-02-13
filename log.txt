@@ -54,4 +54,6 @@
 2017-02-06 0.4 exercises 2.15 and 2.16. wooo, feels good to be done with the extended exercise!
 2017-02-08 0.5 read 2.2 intro and 2.2.1
 2017-02-09 0.6 exercises 2.17 and 2.18
+2017-02-10 0.5 watched the first half of lecture 3B at 2x. want to read re:picture language before watching the rest which is about picture language
+2017-05-13 0.5 exercises 2.19 and 2.20
 
