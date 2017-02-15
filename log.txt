@@ -56,4 +56,4 @@
 2017-02-09 0.6 exercises 2.17 and 2.18
 2017-02-10 0.5 watched the first half of lecture 3B at 2x. want to read re:picture language before watching the rest which is about picture language
 2017-05-13 0.5 exercises 2.19 and 2.20
-
+2017-05-14 0.1 exercise 2.21
