@@ -1,0 +1,22 @@
+The calls to iter on Louis' first program produce the following on (list 1 2 3 4):
+
+(iter (1 2 3 4) nil)
+(iter (2 3 4) (1) )
+(iter (3 4) (4 1))
+(iter (4) (9 4 1))
+(iter () (16 9 4 1))
+(16 9 4 1)
+
+The issue is that the iterative calls (or any function calls) use a stack, which is LIFO,
+so the first element to be processed ends up at the end of the list.
+
+
+Reversing the order of the call to cons does not fix the issue because of the structure of
+the list: the first element of each pair is the element and the second the pointer. If we
+reverse the call to cons we produce a different structure. For example, Louis' second
+function called on (list 1 2 3 4) produces:
+
+((((() . 1) . 4) . 9) . 16)
+
+While this is in the right order, the structure is wrong. What Louis' needs to do is
+append to answer, not cons in the opposite order.
