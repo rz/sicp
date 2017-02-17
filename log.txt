@@ -58,3 +58,6 @@
 2017-05-13 0.5 exercises 2.19 and 2.20
 2017-05-14 0.1 exercise 2.21
 2017-05-16 0.4 exercises 2.22 and 2.23
+2017-02-17 0.2 read the first bit of section 2.2.2. (up to the first set of exercises)
+2017-02-17 0.7 exercises 2.24 and 2.25; 2.24 took surprisingly long, i had some confusion about boxes and pointers
+
