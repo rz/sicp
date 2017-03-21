@@ -63,3 +63,7 @@
 
 2017-02-20 0.6 exercises 2.26 and 2.27. 2.27 was pretty tricky but fun.
 2017-02-21 0.2 exercise 2.28
+2017-02-22 0.5 slow n' slugish on exercise 2.29, partially done
+
+2017-03-20 0.8 context loading on 2.29, still have bugs, but progress was made
+2017-03-21 0.3 finished 2.29, fucking finally!
