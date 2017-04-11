@@ -71,3 +71,6 @@
 2017-03-22 0.8 exercises 2.30-2.32
 2017-03-24 0.5 read section 2.2.3
 2017-03-27 0.5 exercise 2.33. map as a special case of reduce! i think this can also be reduce as a special case of map.
+2017-03-28 0.5 exercise 2.34. this took a lot longer than it sohuld've...
+
+2017-04-11 0.7 exercise 2.35. argh, also took way too long!
