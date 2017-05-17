@@ -74,3 +74,6 @@
 2017-03-28 0.5 exercise 2.34. this took a lot longer than it sohuld've...
 
 2017-04-11 0.7 exercise 2.35. argh, also took way too long!
+
+2017-05-15 0.5 exercie 2.36 and started on 2.36
+2017-05-16 0.7 exercise 2.36 ARGH idiot! was confused for a long time bc my test-input was incorrect: one too many (list ...) layers
